@@ -6,7 +6,7 @@
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/css/bootstrap.min.css">
-        <link rel="stylesheet" href="http://127.0.0.1:5501/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css">
+        <!-- <link rel="stylesheet" href="http://127.0.0.1:5501/bootstrap-5.3.0-alpha1-dist/css/bootstrap.min.css"> -->
         <link rel="stylesheet" href="styles.css">
         <title>Keefer</title>
     </head>
@@ -82,6 +82,12 @@
 
         <nav class="navbar ms-auto navbar-dark p-0 mb-4 navbar-expand-lg bg-body-tertiary">
             <div class="container-fluid nav-section">
+                <button class="navbar-toggler dn ms-auto d-lg-none d-md-none d-sm-none" type="button" data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                    aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                
                 <div class="collapse navbar-collapse" id="navbarSupportedContent">
                     <ul class="navbar-nav  ms-auto  mb-2 mb-lg-0">
                         <li class="nav-item">
@@ -104,20 +110,21 @@
                         </li>
                     </ul>
                 </div>
-                <button class="navbar-toggler ms-auto" type="button" data-bs-toggle="collapse"
+                <button class="navbar-toggler ms-auto hideonsmall" type="button" data-bs-toggle="collapse"
                     data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
                     aria-expanded="false" aria-label="Toggle navigation">
                     <span class="navbar-toggler-icon"></span>
                 </button>
+                
             </div>
         </nav>
         
 
         <!-- Hero Section -->
-         <section class="row hero-section px-3 column-gap-lg-2 mb-5">
+         <section class="row hero-section px-3 gap-lg-2 mb-5">
             <!-- left image container -->
-            <div class="left-col col-lg-6  flex justify-content-center img-fluid">
-                <img src="assets/gurantee_banner.gif" alt="">
+            <div class="left-col col-lg-6 flex justify-content-center ">
+                <img class="img-fluid" src="assets/gurantee_banner.gif" alt="">
 
             </div>
             <!-- right container -->
@@ -136,18 +143,18 @@
 
                 </div>
                 <div class="row">
-                    <form class="my_form col-lg-6 col-md-6 flex flex-column row-gap-2" action="/" method="post">
+                    <form class="my_form col-lg-6 col-md-6 flex flex-column gap-2" action="/" method="post">
                         
-                        <div class="form-group flex column-gap-2 ">
+                        <div class="form-group flex gap-2 ">
                             <label class="fw-bold" for="">NAME:</label>
                             
                             <input  class="border-1" type="text" class="form-control form-control-sm">
                         </div>
-                        <div class="form-group flex column-gap-2" >
+                        <div class="form-group flex gap-2" >
                             <label class="fw-bold" for=""> EMAIL:</label>
                            <input  class="border-1" type="email" class="form-control form-control-sm">
                         </div>
-                        <div class="form-group flex column-gap-2 ">
+                        <div class="form-group flex gap-1 ">
                             <label class="fw-bold" for="">PHONE:</label>
                             <input class="border-1" type="tel" class="form-control form-control-sm">
                         </div>
@@ -426,7 +433,7 @@
                         <img class="img-fluid" src="assets/avo_rating_large.gif" alt="">
                     </div>
 
-                    <div class="items col-lg-12 col-md-6 col-sm-6 mb-sm-4 mb-sm-auto d-flex justify-content-lg-center justify-content-sm-start justify-content-center">
+                    <div class="items col-lg-12 col-md-6 col-sm-6 mb-sm-4 mb-sm-auto mt-lg-3 d-flex justify-content-lg-center justify-content-sm-start justify-content-center">
                         <img id="nc-img" class="img-fluid" src="assets/national_college_large.gif" alt="">
                     </div>
 
@@ -483,8 +490,8 @@
 
 
 
-        <!-- <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script> -->
-        <script src="http://127.0.0.1:5501/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.3/dist/js/bootstrap.min.js"></script>
+        <!-- <script src="http://127.0.0.1:5501/bootstrap-5.3.0-alpha1-dist/js/bootstrap.min.js"></script> -->
     </body>
 
 </html>

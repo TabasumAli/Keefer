@@ -498,6 +498,13 @@ a:hover{
         width: auto;
         margin-bottom: 15px;
     }
+
+    .hideonsmall{
+        display: none !important;
+    }
+    .nav-item{
+        margin: auto;
+    }
     
     
     .head-data{
@@ -825,7 +832,7 @@ a:hover{
         display: none;
     }
     input{
-        width: 75%;
+        width: 75% !important;
         
     }
     .form-control{
@@ -1002,6 +1009,13 @@ a:hover{
 
 }
 
+/*  */
+@media (min-width: 768px) and ( max-width: 786px) {
+    .my_form{
+        width: 100% !important;
+    }
+
+}
 
 
 /* ==================================================================== */
